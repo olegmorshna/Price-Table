@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW8 table 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="col-plan">
+            <col class="col-standard">
+            <col class="col-ultimate">
+            <col class="col-premium">
+        </colgroup>
+        <thead>
+            <tr>
+                <th rowspan="2" class="rowspan2"><span class="choose">Choose your</span><br><span class="pricing">pricing plan</span></th>
+                <th class="th1">standard</th>
+                <th class="th2 ">ultimate</th>
+                <th class="th3">premium</th>
+            </tr>
+            <tr>
+                <td class="shadow"><span class="prices">$17</span><sup class="sup">.99</sup>Per Month</td>
+                <td class="shadow"><span class="prices">$37</span><sup class="sup">.99</sup>Per Month</td>
+                <td class="shadow"><span class="prices">$97</span><sup class="sup">.99</sup>Per Month</td>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr class="button">
+                <td><button type="button" class="btn-buy">contact us</button></td>
+                <td class="shadow"><button type="button" class="btn-buy btn-green">buy now</button></td>
+                <td class="shadow"><button type="button" class="btn-buy btn-red">buy now</button></td>
+                <td class="shadow"><button type="button"class="btn-buy btn-blue">buy now</button></td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr class="main">
+                <td><img src="images/storage.png" alt="storage" width="21px" height="21px">&nbsp;storage</td>
+                <td class="shadow" >500GB Storage</td>
+                <td class="shadow" >1000GB Storage</td>
+                <td class="shadow" >2000GB Storage</td>
+            </tr>
+            <tr class="main info">
+                <td ><img src="images/bandwidth.png" alt="bandwidth" width="21px" height="21px">&nbsp;Bandwidth</td>
+                <td class="shadow" colspan="2">limited</td>
+                <td class="shadow">unlimited</td>
+            </tr>
+            <tr class="main">
+                <td><img src="images/email.png" alt="email" width="21px" height="21px">&nbsp;email</td>
+                <td class="shadow">25 emails</td>
+                <td class="shadow">45 emails</td>
+                <td class="shadow">65 emails</td>
+            </tr>
+            <tr class="main info">
+                <td><img src="images/support.png" alt="support" width="21px" height="21px">&nbsp;support</td>
+                <td colspan="3">24/7 support</td>
+            </tr>
+            <tr class="main">
+                <td><img src="images/products.png" alt="products" width="21px" height="21px">&nbsp;products</td>
+                <td class="shadow">20 products</td>
+                <td class="shadow">30 products</td>
+                <td class="shadow">60 products</td>
+            </tr>
+            <tr class="main info">
+                <td><img src="images/users.png" alt="users" width="21px" height="21px">&nbsp;users</td>
+                <td class="shadow">1 user</td>
+                <td class="shadow">10 user</td>
+                <td class="shadow">15 user</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
